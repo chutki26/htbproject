@@ -4,8 +4,8 @@
   position: absolute;
   width: 456px;
   height: 89px;
-  left: 492px;
-  top: 34px;
+  left: 375px;
+  top: 0px;
 
   font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif;                                         
   font-style: normal;
@@ -13,6 +13,7 @@
   font-size: 78px;
   line-height: 92px;
 
+  color: #FFFFFF;
 }
 
 body{
