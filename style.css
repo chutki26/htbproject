@@ -20,6 +20,7 @@ body{
 .container{
     position: relative;
     padding: 2rem 200px;
+    top: 67px;
 }
 
 .container h2{
