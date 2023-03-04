@@ -1,0 +1,21 @@
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.header {
+    text-align: center;
+    padding: 60px;
+    background: #3A5A40;
+    color: white;
+    font-size: 30px;
+    font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif
+}

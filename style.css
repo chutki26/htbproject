@@ -1,2 +1,69 @@
-#CSS
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.header{
+  width: 456px;
+  height: 89px;
+  left: 375px;
+  top: 0px;
+
+  font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif;                                         
+  font-style: normal;
+  font-weight: 400;
+  font-size: 78px;
+  line-height: 92px;
+
+  color: #FFFFFF;
+}
+
+body{
+  background: #588157;
+}
+.container{
+    position: relative;
+    padding: 2rem 200px;
+    top: 98px;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.circular-bars{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #e9edc9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circular-bar{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #fff;
+    display: grid;
+    place-items: center;
+}
+
+.circular-bar::before{
+    content: "";
+    position: absolute;
+    width: 84%;
+    height: 84%;
+    border-radius: 50%;
+    background-color: #ccd5ae;
+}
+
+.circular-bar.value{
+    z-index: 9;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
