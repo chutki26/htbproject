@@ -8,8 +8,8 @@
 
   font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif;                                         
   font-style: normal;
-  font-weight: 10;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 78px;
   line-height: 92px;
 
   color: #FFFFFF;
@@ -47,7 +47,7 @@ body{
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background: red;
+    background: #e9edc9;
     display: grid;
     place-items: center;
 }

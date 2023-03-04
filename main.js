@@ -8,7 +8,7 @@ let speed = 20;
 
 let progress = setInterval(() => {
     progressStartValue++;
-    value.textContent = `${progressValue}%`;
+    value.textContent = `${progressStartValue}%`;
     progressBar.style.background = `conic-gradient(#2A324B ${
         progressStartValue*3.6
     }deg, #767B91 ${progressStartValue*3.6}deg)`;
