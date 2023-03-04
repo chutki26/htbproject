@@ -4,7 +4,7 @@ const value = document.querySelector(".value");
 let progressStartValue = 0;
 let progressBarEndValue = 76; //Your value
 
-let speed = 1000;
+let speed = 20;
 
 let progress = setInterval(() => {
     progressStartValue++;
@@ -13,7 +13,7 @@ let progress = setInterval(() => {
         progressStartValue*3.6
     }deg, #767B91 ${progressStartValue*3.6}deg)`;
 
-    if(progressStartValue === progressBarEndValue){
+    if(progressStartValue == progressBarEndValue){
         clearInterval(progress);
     }
 }, speed);
