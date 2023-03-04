@@ -1,17 +1,17 @@
-coconst progressBar = document.querySelector(".circular-bar");
+const progressBar = document.querySelector(".circular-bar");
 const value = document.querySelector(".value");
 
 let progressStartValue = 0;
-let progressBarEndValue = 76; //Your value
+let progressBarEndValue = 100; //Your value
 
 let speed = 20;
 
 let progress = setInterval(() => {
     progressStartValue++;
     value.textContent = `${progressStartValue}%`;
-    progressBar.style.background = `conic-gradient(#e9edc9 ${
+    progressBar.style.background = `conic-gradient(#fff ${
         progressStartValue*3.6
-    }deg, #e9edc9 ${progressStartValue*3.6}deg)`;
+    }deg, #ccd5ae ${progressStartValue*3.6}deg)`;
 
     if(progressStartValue == progressBarEndValue){
         clearInterval(progress);
