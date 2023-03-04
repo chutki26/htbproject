@@ -19,6 +19,8 @@
 body{
   background: #588157;
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  
 }
 .container{
     position: relative;
@@ -63,10 +65,11 @@ body{
     background-color: #ccd5ae;
 }
 
-.circular-bar.value{
+.circular-bar .value{
     z-index: 9;
     font-size: 1.5rem;
     font-weight: 600;
+    
 }
 
 .dropbtn {
