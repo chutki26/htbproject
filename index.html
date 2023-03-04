@@ -1,5 +1,48 @@
 #HTML
 <!DOCTYPE html>
 <html lang="en">
-    
+	<head>
+    <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Todo</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body>
+ 		<header>
+    <h1>Todo PWA</h1> 
+    <form id="new-task-form">
+     <input type="text" name="new-task-input" id="new-task-input" placeholder="What do you have planned?" />
+     <input type="submit" id="new-task-submit" value="Add task" />
+    </form>
+    </header>
+    <main>
+    		<section class = "header">
+        	#add a profile picture here 
+          <div class="btn-group">
+          	<a href="map.html">
+   					 	 <button>Map</button>
+  					</a>
+           <a href="marketplace.html">
+   					 	 <button>Marketplace</button>
+  					</a>
+            <a href="rewards.html">
+   					 	 <button>Rewards</button>
+  					</a>
+            <a href="sustainability.html">
+   					 	 <button>Sustainability</button>
+  					</a>
+          </div>
+				</section>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+            </div>
+        </section>
+    </main>
+
+  	<script src="index.js"></script>
+	</body>
+
 </html>
