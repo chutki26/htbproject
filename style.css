@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 .header{
-  position: absolute;
   width: 456px;
   height: 89px;
   left: 375px;
@@ -9,8 +8,8 @@
 
   font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif;                                         
   font-style: normal;
-  font-weight: 400;
-  font-size: 78px;
+  font-weight: 10;
+  font-size: 40px;
   line-height: 92px;
 
   color: #FFFFFF;
