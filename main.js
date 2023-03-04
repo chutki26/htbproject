@@ -2,7 +2,7 @@ const progressBar = document.querySelector(".circular-bar");
 const value = document.querySelector(".value");
 
 let progressStartValue = 0;
-let progressBarEndValue = 100; //Your value
+let progressBarEndValue = 69; //Your value
 
 let speed = 20;
 

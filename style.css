@@ -3,10 +3,6 @@
 .header{
   position: relative;
   text-align: center;
-  width: 456px;
-  height: 89px;
-  left: 370px;
-  top: 0px;
 
   font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif;                                         
   font-style: normal;
@@ -15,6 +11,9 @@
   line-height: 92px;
 
   color: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
 }
 
 body{
