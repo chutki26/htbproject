@@ -50,7 +50,7 @@ body{
     place-items: center;
 }
 
-.circular-bar::before{
+.circular-bar:before{
     content: "";
     position: absolute;
     width: 84%;
