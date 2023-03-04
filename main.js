@@ -1,4 +1,4 @@
-const progressBar = document.querySelector("circular-bar");
+const progressBar = document.querySelector(".circular-bar");
 const value = document.querySelector(".value");
 
 let progressStartValue = 0;
