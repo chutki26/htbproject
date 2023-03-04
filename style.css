@@ -1,12 +1,17 @@
 
- h1 {
+ .head{
   position: absolute;
   width: 456px;
   height: 89px;
   left: 492px;
   top: 34px;
-  font-size: 400px;
 
-  color: black;
+  font-family: 'Rubik Puddles';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 78px;
+  line-height: 92px;
 }
-
+.btn-group{
+  color:royalblue;
+}
