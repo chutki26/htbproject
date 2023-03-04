@@ -4,7 +4,7 @@ const value = document.querySelector(".value");
 let progressStartValue = 0;
 let progressBarEndValue = 76; //Your value
 
-let speed = 1000;
+let speed = 20;
 
 let progress = setInterval(() => {
     progressStartValue++;
