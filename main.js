@@ -1,5 +1,5 @@
 const progressBar = document.querySelector(".circular-bar");
-const value = document.querySelector(".value");
+const value = document.querySelector(".circular-bar.value");
 
 let progressStartValue = 0;
 let progressBarEndValue = 100; //Your value
