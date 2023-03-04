@@ -5,6 +5,8 @@
   text-align: center;
   width: 456px;
   height: 89px;
+  left: 370px;
+  top: 0px;
 
   font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif;                                         
   font-style: normal;
@@ -17,6 +19,7 @@
 
 body{
   background: #588157;
+  font-family: 'Poppins', sans-serif;
 }
 .container{
     position: relative;
