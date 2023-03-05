@@ -1,25 +1,12 @@
 .searchbar input[type=text]{
     float: right;
     padding: 6px;
-    border: none;
+    border: none;   
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
 }
-
 a{
-    color: inherit;
     text-decoration: none;
-}
-
-.header {
-    text-align: center;
-    padding: 60px;
-    color: white;
-    font-size: 30px;
-    font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif
-}
-
-body{
-    background: #588157;
+    color: inherit;
 }
