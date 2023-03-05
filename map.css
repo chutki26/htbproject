@@ -13,12 +13,19 @@
 
 .header {
     text-align: center;
-    padding: 60px;
     color: white;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 92px;
+    position: relative;
     font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif
 }
 
 body{
     background: #588157;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
