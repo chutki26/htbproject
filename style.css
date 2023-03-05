@@ -73,9 +73,8 @@ body{
 }
 .dropdown {
   position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
+  top: 20px;
+  left: 20px;
 }
 
 .menu-btn {
@@ -95,6 +94,7 @@ body{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 20px;
+  font-size: 12px;
 }
 
 .dropdown-content a {
