@@ -26,4 +26,4 @@ rightArrow.addEventListener('click', function(){
     document.querySelector('.controls .selected').classList.remove('selected');
     indicatorParents.children[sectionIndex].classList.add('selected');
     slider.style.transform = 'translate(' + (sectionIndex) * -25 + '%)';
-})
+}) 
