@@ -119,3 +119,15 @@ body{
   border: 2px solid #e9edc9;
   color: #e9edc9;
 }
+.my-button {
+  background-color: #3a5a40;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image:url();
+  background-position: center center; 
+  background-size: cover;
+}
