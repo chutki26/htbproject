@@ -73,22 +73,11 @@ body{
 }
 
 button{
+  
   background: #e9edc9;
   font-size: 20;
   border-radius: 5%;
   display: flex;
   cursor: pointer;
 
-  span {
-    margin-left: .3em;
-  }
-
-  &:hover{
-    background: #e9edc9;
-
-    dropdown{
-      display: block;
-    }
-  }
-    
 }
