@@ -18,7 +18,7 @@
     font-size: 40px;
     line-height: 92px;
     position: relative;
-    font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif
+    font-family: 'Rubik Puddles', cursive, "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 body{
@@ -28,4 +28,4 @@ body{
 a {
     color: inherit;
     text-decoration: none;
-  }
+}
