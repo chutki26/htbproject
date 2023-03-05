@@ -73,11 +73,14 @@ body{
 }
 
 button{
-  
+
   background: #e9edc9;
   font-size: 20;
   border-radius: 5%;
   display: flex;
   cursor: pointer;
 
+  span{
+    
+  }
 }
