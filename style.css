@@ -71,15 +71,6 @@ body{
     font-weight: 600;
     
 }
-
-button{
-
-  background: #e9edc9;
-  font-size: 20;
-  border-radius: 5%;
-  display: flex;
-  cursor: pointer;
-}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -114,6 +105,8 @@ button{
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
+  background-color: #e9edc9;
+  font-family: 'Pragati Narrow', sans-serif;
   display: block;
 }
 
