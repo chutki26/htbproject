@@ -47,7 +47,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }  
+.slider section h1{
+    color: #A3B18A;
+}
 .controls .arrow{
     position: absolute;
     top: 50%;
@@ -85,4 +89,8 @@ a {
 }
 .controls ul li.selected{
     background: transparent;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
