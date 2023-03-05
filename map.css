@@ -24,3 +24,7 @@
 body{
     background: #588157;
 }
+
+a {
+    color: inherit;
+  }
