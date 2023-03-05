@@ -1,12 +1,88 @@
-.searchbar input[type=text]{
-    float: right;
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.searchbar input[type=text], .add-post button, .filter button{
     padding: 6px;
     border: none;   
     margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 17px; 
+    color: white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
 }
 a {
     color: inherit;
     text-decoration: none;
+}
+.functions {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: center; /* switched from default (flex-start, see below) */
+    column-gap: 1.5rem;
+}
+
+.container{
+    width: 50%;
+    margin: 10px auto;
+}
+
+.carousel {
+    border: 2px solid #ccc;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    height: 100%;
+    display: flex;
+    width: 400%;
+    transition: all 0.3s;
+}
+.slider section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.controls .arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.controls .arrow i{
+    font-size: 50px;  
+}
+.arrow.left{
+    left: 10px;
+}
+.arrow.right{
+    right: 10px;
+}
+.controls ul{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.controls ul li{
+    width: 14px;
+    height: 14px; 
+    border: 2px solid #333;
+    border-radius: 50px;
+    margin: 10px;
+    background: #333;
+    cursor: pointer;
+}
+.controls ul li.selected{
+    background: transparent;
 }
