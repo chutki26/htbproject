@@ -35,11 +35,11 @@ body{
 
 .circular-bars{
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     margin: 0 auto;
     background-color: #e9edc9;
-    border-radius: 10px;
+    border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.12);
     display: flex;
     justify-content: space-around;
