@@ -10,20 +10,69 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+        <script src="marketplace.js" defer> </script>
     </head>
 
     <body>
-        <main>
+        <main>            
             <div class="header">
                 <a href="index.html">
                     <h1>SustainEd</h1>
                 </a>
             </div>
-            <div class="add-post"></div>
-            <div class="searchbar">
-                <input type="text" placeholder="Search">
+            <h1> The Marketplace</h1>
+            <div class="functions">
+                <div class="add-post">
+                    <button type="button">+ Sell Item</button>
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="filter">
+                    <button type="button">Filter</button>
+                </div>
             </div>
-            <div class="filter"></div>
+            
+            <div class="container">
+                <div class="carousel">
+                    <div class="slider">
+                        <section>
+                            <h1 style="padding-left: 50px;"> CLRS Textbook</h1>
+                            <img style='height: 100%; width: 100%; object-fit: contain' src="clrs.jpeg" />
+                        </section>
+                        <section> 
+                            <h1 style="padding-left: 50px;"> Set of IKEA pots</h1>
+                            <img style='height: 100%; width: 100%; object-fit: contain' src="pots.jpeg" />
+                        </section>
+                        <section> 
+                            <h1 style="padding-left: 50px;"> Dinnerware Set</h1>
+                            <img style='height: 100%; width: 100%; object-fit: contain' src="dinnerware.jpeg" />
+                        </section>
+                        <section> 
+                            <h1 style="padding-left: 50px;">University Hoodie</h1>
+                            <img style='height: 100%; width: 100%; object-fit: contain' src="hoodie.jpeg" />
+                        </section>
+                    </div>
+                    <div class="controls">
+                        <span class="arrow left">
+                            <i class="material-icons">  
+                                keyboard_arrow_left
+                            </i>
+                        </span>
+                        <span class="arrow right">
+                            <i class="material-icons">  
+                                keyboard_arrow_right
+                            </i>
+                        </span>
+                        <ul>
+                            <li class="selected"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>
