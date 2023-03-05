@@ -79,8 +79,4 @@ button{
   border-radius: 5%;
   display: flex;
   cursor: pointer;
-
-  span{
-    
-  }
 }
