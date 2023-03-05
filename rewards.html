@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title href="index.html">SustainEd</title>
-		<link rel="stylesheet" href="map.css" type="text/css"/>
+		<link rel="stylesheet" href="rewards.css" type="text/css"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
@@ -17,12 +17,63 @@
 		</a>
 	</div>
 
-    <div class="card">
-        <img src="Coffee.jpg" alt="CoffeeReward" style="width:30%">
-        <div class="container">
-          <h4><b>Jane Doe</b></h4> 
-          <p>Interior Designer</p> 
-        </div>
-    </div>
+    <div class="wrapper">
+		<div class="rewards">User Rewards</div>
+	
+		<div class="cards_wrap">
+			<div class="card_item">
+				<div class="card_inner">
+					<img src="Coffee.jpg">
+					<div class="reward_name">Free Coffee</div>
+					<div class="points">300 points</div>
+					<a class="popbutton" href="#popup1">Claim Reward</a>
+				</div>
+			</div>
+			<div class="card_item">
+				<div class="card_inner">
+					<img src="Pastry.jpg">
+					<div class="reward_name">Free Pastry</div>
+					<div class="points">200 points</div>
+					<a class="popbutton" href="#popup1">Claim Reward</a>
+				</div>
+			</div>
+			<div class="card_item">
+				<div class="card_inner">
+					<img src="Lunch.jpg">
+					<div class="reward_name">Free Lunch</div>
+					<div class="points">600 points</div>
+					<a class="popbutton" href="#popup2">Claim Reward</a>
+				</div>
+			</div>
+			<div class="card_item">
+				<div class="card_inner">
+					<img src="Printing.jpg">
+					<div class="reward_name">Printing Credit</div>
+					<div class="points">800 points</div>
+					<a class="popbutton" href="#popup2">Claim Reward</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup1" class="overlay">
+		<div class="popup">
+			<h2>Congratulations!</h2>
+			<a class="close" href="#">&times;</a>
+			<div class="content">
+				Please check your email for the redeem code!
+			</div>
+		</div>
+	</div>
+
+	<div id="popup2" class="overlay">
+		<div class="popup">
+			<h2>Sorry...</h2>
+			<a class="close" href="#">&times;</a>
+			<div class="content">
+				You're a little short on points.
+			</div>
+		</div>
+	</div>
     
 </html>
