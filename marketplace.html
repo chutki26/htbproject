@@ -10,20 +10,57 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+        <script src="marketplace.js" defer> </script>
     </head>
 
     <body>
-        <main>
+        <main>            
             <div class="header">
                 <a href="index.html">
                     <h1>SustainEd</h1>
                 </a>
             </div>
-            <div class="add-post"></div>
-            <div class="searchbar">
-                <input type="text" placeholder="Search">
+            <h1> The Marketplace</h1>
+            <div class="functions">
+                <div class="add-post">
+                    <button type="button">+ Sell Item</button>
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="filter">
+                    <button type="button">Filter</button>
+                </div>
             </div>
-            <div class="filter"></div>
+            
+            <div class="container">
+                <div class="carousel">
+                    <div class="slider">
+                        <section>popular item 1</section>
+                        <section> popular item 2 </section>
+                        <section> popular item 3 </section>
+                        <section> popular item 4 </section>
+                    </div>
+                    <div class="controls">
+                        <span class="arrow left">
+                            <i class="material-icons">  
+                                keyboard_arrow_left
+                            </i>
+                        </span>
+                        <span class="arrow right">
+                            <i class="material-icons">  
+                                keyboard_arrow_right
+                            </i>
+                        </span>
+                        <ul>
+                            <li class="selected"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>
