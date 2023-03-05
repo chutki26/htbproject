@@ -11,10 +11,14 @@
 }
 .button {
     background-color: #3A5A40;
+    font-family: 'Inconsolata', monospace;
 }
 h1{
     text-align: center;
     color: white;
+}
+#title{
+    font-family: 'Inconsolata', monospace;
 }
 a {
     color: inherit;
@@ -54,6 +58,7 @@ a {
 }  
 .slider section h1{
     color: #A3B18A;
+    font-family: 'Inconsolata', monospace;
 }
 .controls .arrow{
     position: absolute;
