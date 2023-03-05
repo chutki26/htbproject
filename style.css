@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .header{
   position: relative;
   text-align: center;
@@ -12,9 +12,7 @@
 
   color: #FFFFFF;
 
-  display: flex;
   justify-content: center;
-  column-gap: 20rem;
 }
 
 body{
@@ -73,7 +71,7 @@ body{
     
 }
 .dropdown {
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 40px;
 }
@@ -96,7 +94,7 @@ body{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 20px;
   font-size: 12px;
-  position: relative;
+  position: absolute;
 }
 
 .dropdown-content a {
@@ -120,4 +118,16 @@ body{
   background-color: #3a5a40;
   border: 2px solid #e9edc9;
   color: #e9edc9;
+}
+.my-button {
+  background-color: #3a5a40;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image:url();
+  background-position: center center; 
+  background-size: cover;
 }
